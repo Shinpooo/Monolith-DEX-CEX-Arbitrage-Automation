@@ -81,9 +81,9 @@ This avoids trading logic blocking because a DB write is slow or the DB crashes,
 
 ## 7. Testing & Validation
 Testing focuses on the critical failure points: liquidity checks, position caps, OI limits, rebalance triggers, and automatic hedge execution.  
-We validate hedge correctness on every trade and alert when deviation crosses a configurable threshold.  
----
+We validate hedge correctness on every trade and alert when deviation crosses a configurable threshold.
 
+---
 ## 8. Open Questions / Assumptions
 - First MVP relies on third-party opportunity dashboard which can provide inaccurate data.
 - ADL might not be detected through the position update stream. This may vary from an exchange to another.
